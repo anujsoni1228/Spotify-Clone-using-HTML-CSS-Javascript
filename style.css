@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Red+Hat+Display&display=swap');
+
+body {
+    background-color: rgb(247, 255, 217);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.brand img {
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container {
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.min{
+    margin-left: 12px;
+}
+.sec{
+    margin-right: 12px;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+    color: #000;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 5px 12px;
+}
+
+.songItem {
+    height: 30px;
+    display: flex;
+    background-color: aliceblue;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songItem img {
+    width: 23px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+.timestamp{
+    margin: 0 10px;
+}
+
+.songItem span i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.songItemContainer{
+margin-top: 34px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
